@@ -1,0 +1,83 @@
+body {
+  background-color: rgb(244, 234, 255);
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  text-align: center;
+  padding: 32px;
+}
+
+h1 {
+  color: rgb(88, 49, 196);
+  font-weight: 900;
+  font-size: 52px;
+}
+
+img {
+  width: 300px;
+}
+
+main {
+  background-color: rgb(122, 74, 218);
+  color: aliceblue;
+  margin: 32px auto;
+  text-align: left;
+  width: 700px;
+  padding: 32px;
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px rgb(44, 44, 44);
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin: 14px 0;
+    padding-left: 10px;
+    border-left: 5px solid transparent;
+}
+
+
+.left-border-li {
+  border-color: rgb(236, 180, 76);
+}
+
+
+.white-background-span {
+  background-color: aliceblue;
+  color: purple;
+  padding: 2px 6px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.white-background-span:hover, .white-background-span:active {
+    background-color: rgb(185, 191, 196);
+}
+
+footer {
+  text-align: center;
+}
+#download-button {
+  background-color: rgb(250, 201, 39);
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(66, 51, 4);
+  text-decoration: none;
+  transition: all 0.4s ease-in-out;
+}
+
+#download-button:hover, #download-button:active {
+  background-color: rgb(247, 209, 85);
+}
+
+#footer-text {
+  color: gray;
+  margin-top: 30px;
+}

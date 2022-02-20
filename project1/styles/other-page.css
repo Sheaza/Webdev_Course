@@ -1,0 +1,67 @@
+header {
+    margin-bottom: 64px;
+}
+h1 {
+  font-weight: bold;
+  font-size: 80px;
+  color: rgb(71, 62, 62);
+  font-family: "Syne Mono", sans-serif;
+  margin: 0;
+}
+
+p {
+  font-size: 20px;
+  color: rgb(53, 53, 53);
+  font-family: sans-serif;
+}
+
+a {
+  background-color: rgb(167, 1, 78);
+  font-size: 32px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: white;
+  border-radius: 10px;
+  transition: all 0.4s ease-in-out;
+  padding: 12px 48px;
+  display: inline-block;
+}
+
+a:hover {
+  background-color: rgb(185, 36, 106);
+}
+
+ul {
+  list-style: none;
+  width: 800px;
+  margin: 36px auto 0 auto;
+  padding: 0;
+}
+
+li {
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.3);
+  padding: 12px;
+  font-size: 24px;
+  margin: 32px;
+  background-color: rgb(223, 136, 124);
+  border-radius: 6px;
+}
+
+#description {
+    margin: 12px 0;
+}
+
+h2 {
+    color: rgb(78, 13, 5);
+    font-family: 'Syne Mono', sans-serif;
+}
+
+/* main p {
+    margin: 12px;
+    color: rgb(71, 29, 22);
+} */
+
+.daily-goal {
+    margin: 12px;
+    color: rgb(71, 29, 22);
+}
